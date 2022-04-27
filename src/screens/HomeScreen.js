@@ -19,7 +19,7 @@ const HomeScreen = () => {
        <Center flex={1} bg={"white"}>
          <HStack space={20}>
            <Button borderRadius={0} width={70} bg={"violet.600"} onPress={() => dispatch(decreaseOne(counterValue - 1))}>
-             <Text fontSize={50} color="white">-</Text>
+             <Text fontSize={40} color="white">-</Text>
            </Button>
            <Button borderRadius={0} width={70} bg={"violet.600"} onPress={() => dispatch(increaseOne(counterValue + 1))}>
              <Text fontSize={40} color="white">+</Text>
